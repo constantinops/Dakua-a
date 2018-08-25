@@ -25,6 +25,8 @@
         android:padding="@dimen/activity_horizontal_margin"
         android:text="Dakua'a"
         android:textColor="@android:color/background_light"
-        android:textSize="23dp" />
+        android:textSize="23dp"
+
+        />
 
 </RelativeLayout>

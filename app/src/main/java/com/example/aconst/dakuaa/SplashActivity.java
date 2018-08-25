@@ -23,7 +23,7 @@ public class SplashActivity extends AppCompatActivity {
         imageView.startAnimation(animation);
 
         TextView textView=findViewById(R.id.text);
-        Animation animationn= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade);
+        Animation animationn= AnimationUtils.loadAnimation(getApplicationContext(),R.anim.textanimen);
         textView.startAnimation(animationn);
 
 
@@ -58,4 +58,6 @@ public class SplashActivity extends AppCompatActivity {
         time.start();
 
     }
+
+
 }
